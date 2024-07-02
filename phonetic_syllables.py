@@ -144,7 +144,7 @@ def main():
     arpabet, words = init_nltk()
     #arpabet, english_words = init_dicts()
     word_to_syllables = {}
-    f = open("output-arpanet.txt", 'w')
+    f = open("output-arpabet.txt", 'w')
     words = list(words)
     random.shuffle(words)
     for word in words:
